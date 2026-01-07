@@ -1,28 +1,42 @@
-# Jordan Peterson ASCII Art (Python)
+#Image to ASCII Art Generator using Python
+🧠 Project Overview
 
-## Project Overview
-This project demonstrates Python fundamentals by creating an ASCII-style portrait of Jordan Peterson using loops, conditional statements, and logical thinking.
+This project converts a human image into ASCII art using Python.
+It uses loops, conditional statements, logical buckets, and image processing.
+The ASCII output is displayed directly in the terminal.
 
-## Objective
-- Practice nested loops
-- Use conditional statements
-- Improve logical reasoning using coordinates
-- Create visual output using basic Python
+🎯 Objectives
 
-## Concepts Used
-- for loops
-- if-elif-else conditions
-- print() function
-- logical operators
+Understand how digital images store pixel brightness
+Apply loops and conditionals for character mapping
+Convert grayscale pixel values into ASCII characters
+Strengthen Python fundamentals for AIML projet.
 
-## How the Code Works
-The console is treated as a 2D grid (rows and columns).  
-Each position is checked using conditions to decide which character to print:
-- @ for face boundary
-- O for eyes
-- | for nose
-- - for mouth
+🛠️ Technologies Used
 
-## How to Run
-```bash
-python ascii_jordan.py
+Python 3.10+
+Pillow (PIL) Library
+VS Code / Terminal
+
+⚙️ Working Principle
+
+The image is resized to fit the terminal.
+It is converted to grayscale.
+Pixel brightness values (0–255) are grouped into buckets.
+Each bucket maps to an ASCII character.
+Nested loops traverse image rows and columns.
+
+🧩 Algorithm Steps
+
+Check if image file exists using a loop
+Load and resize the image
+Convert image to grayscale
+Divide brightness into equal buckets
+Use nested loops to map pixels to ASCII
+Print ASCII image row-by-row
+
+📸 Sample Output
+
+Displays a recognizable human face
+Dark areas appear dense (@ # %)
+Light areas appear sparse (. and spaces)
