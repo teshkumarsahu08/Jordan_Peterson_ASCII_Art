@@ -42,3 +42,4 @@ Displays a recognizable human face
 Dark areas appear dense (@ # %)
 Light areas appear sparse (. and spaces)
 
+
