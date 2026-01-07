@@ -1,2 +1,0 @@
-# Jordan_Peterson_ASCII_Art
-Jordan_Peterson_ASCII_Art
