@@ -1,4 +1,5 @@
 #Image to ASCII Art Generator using Python
+
 🧠 Project Overview
 
 This project converts a human image into ASCII art using Python.
@@ -40,3 +41,4 @@ Print ASCII image row-by-row
 Displays a recognizable human face
 Dark areas appear dense (@ # %)
 Light areas appear sparse (. and spaces)
+
